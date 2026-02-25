@@ -42,7 +42,29 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <4 3>;
+        };
+
+        ri {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <21 20>;
+        };
+
+        l1 {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <1 0>;
+        };
+
+        lann {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <11 10>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
