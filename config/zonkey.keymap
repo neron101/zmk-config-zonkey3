@@ -105,10 +105,10 @@
             // | CTRL | WIN | ALT |HENKAN|SPACE|MUHENKAN|       | BS | ENT |      　　　　       | DEL |           
 
             bindings = <
-&kp Q             &kp W           &kp E         &kp R         &kp T                                      &kp Y        &kp U          &kp I      &kp O         &kp P
-&kp A             &kp S           &kp D         &kp F         &kp G        &mkp MB2    &kp N             &kp H        &kp J          &kp K      &kp L         &kp SQT
-&kp LEFT_CONTROL  &kp Z           &kp X         &kp C         &kp V        &kp B       &kp LEFT_BRACKET  &kp M        &kp COMMA      &kp COMMA  &kp QUESTION  &kp EQUAL
-&kp CAPS          &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1                      &lt 3 ENTER  &kp BACKSPACE                                      &lt 4 RIGHT_BRACKET
+&kp Q             &kp W           &kp E         &kp R         &kp T                                        &kp Y        &kp U          &kp I      &kp O         &kp P
+&kp A             &kp S           &kp D         &kp F         &kp G        &mkp MB2    &kp N               &kp H        &kp J          &kp K      &kp L         &kp SQT
+&kp LEFT_CONTROL  &kp Z           &kp X         &kp C         &kp V        &kp B       &lt 4 LEFT_BRACKET  &kp M        &kp COMMA      &kp COMMA  &kp QUESTION  &kp EQUAL
+&kp CAPS          &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1                        &lt 3 ENTER  &kp BACKSPACE                                      &lt 4 RIGHT_BRACKET
             >;
 
             sensor-bindings = <&scroll_up_down>;
