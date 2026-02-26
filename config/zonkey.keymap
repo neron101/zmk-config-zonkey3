@@ -107,7 +107,7 @@
             bindings = <
 &kp Q     &kp W           &kp E         &kp R         &kp T                                                       &kp Y        &kp U          &kp I      &kp O         &kp P
 &kp A     &kp S           &kp D         &kp F         &kp G        &lt 4 SPACE    &kp N                           &kp H        &kp J          &kp K      &kp L         &kp MINUS
-&kp Z     &kp X           &kp C         &kp V         &kp B        &mkp MB2       &mt RIGHT_CONTROL LEFT_BRACKET  &kp M        &kp COMMA      &kp COMMA  &kp QUESTION  &kp EQUAL
+&mkp MB2  &kp Z           &kp X         &kp C         &kp V        &kp B          &mt RIGHT_CONTROL LEFT_BRACKET  &kp M        &kp COMMA      &kp COMMA  &kp QUESTION  &kp EQUAL
 &kp CAPS  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1                                       &lt 3 ENTER  &kp BACKSPACE                                      &lt 4 RIGHT_BRACKET
             >;
 
