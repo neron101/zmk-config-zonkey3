@@ -1,6 +1,13 @@
-name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+---
+include:
+  - board: seeeduino_xiao_ble
+    shield: "zonkey_R rgbled_adapter"
+    snippet: studio-rpc-usb-uart
+    artifact-name: zonkey_R
+  - board: seeeduino_xiao_ble
+    shield: "zonkey_L rgbled_adapter"
+    snippet: studio-rpc-usb-uart
+    artifact-name: zonkey_L
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: settings_reset
