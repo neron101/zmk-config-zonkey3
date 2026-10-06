@@ -20,9 +20,10 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: v0.3
+    # DYA Studio modules (pinned to ZMK v0.3 compatible revisions)
     - name: zmk-module-ble-management
       remote: cormoran
-      revision: main
+      revision: zmk-v0.3.0.0
     - name: zmk-module-battery-history
       remote: cormoran
       revision: main
@@ -30,6 +31,9 @@ manifest:
       remote: cormoran
       revision: main
     - name: zmk-module-runtime-input-processor
+      remote: cormoran
+      revision: zmk-v0.3.0.0
+    - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
 
